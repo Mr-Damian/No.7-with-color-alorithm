@@ -68,7 +68,8 @@ function createPalette(numberOfColors) {
   } else {
     harmonyType = harmonyRules[8]
   }
-
+  
+  console.log(harmonyType)
 
   //code for selecting complementary color
   if (harmonyType == 'complementary') {
@@ -143,7 +144,6 @@ function createPalette(numberOfColors) {
       generatedPalette.push(c.slice(0, 3))
     }
   }
-  console.log(harmonyType)
   return (generatedPalette);
 }
 
