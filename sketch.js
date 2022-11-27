@@ -143,6 +143,7 @@ function createPalette(numberOfColors) {
       generatedPalette.push(c.slice(0, 3))
     }
   }
+  console.log(generatedPalette)
   return (generatedPalette);
 }
 
