@@ -143,7 +143,7 @@ function createPalette(numberOfColors) {
       generatedPalette.push(c.slice(0, 3))
     }
   }
-  console.log(generatedPalette)
+  console.log(harmonyType)
   return (generatedPalette);
 }
 
